@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chess{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    border:  1px solid brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.chess__line{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.chess__box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.chess__line .odd{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+.odd{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+.even{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+.chess__line .even{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+.chess__box .odd{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+.chess__box .even{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
